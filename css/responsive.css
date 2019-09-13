@@ -1,0 +1,69 @@
+@media screen and (max-width: 450px) {
+      .titulo-header {
+        font-size: 2.2em;
+      }
+
+      .subtitulo {
+        font-size: 1em;
+      }
+
+      .projetos, .titulo-trabalho {
+        font-size: 1.5em;
+      }
+
+      .box {
+         width: 100%;
+         padding: 10px 0 20px 0;
+       }
+}
+
+@media screen and (max-width: 600px) {
+      .box {
+         width: 100%;
+         padding: 10px 0 20px 0;
+       }
+}
+
+ @media screen and (min-width: 1000px) {
+
+      .topo, .footer {
+         width: 1000px;
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      .divisor-topo, .divisor-footer, .container {
+         width: 1000px;
+         margin-left: auto;
+         margin-right: auto;
+         display: flex;
+         flex-wrap: wrap;
+      }
+}
+
+/* Adjust to iPad Pro */
+
+@media screen and (min-height: 1300px) {
+      .topo, .footer {
+         width: 1000px;
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      .box {
+         width: 100%;
+         padding: 10px 0 20px 0;
+       }
+
+      .titulo-header {
+         font-size: 4em;
+     }
+
+     .subtitulo {
+         font-size: 1.3em;
+     }
+
+     .projetos, .titulo-trabalho {
+       font-size: 2em;
+     }
+}

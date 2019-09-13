@@ -1,0 +1,185 @@
+/* Style for potfolio exercice */
+
+  body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: sans-serif;
+  }
+
+  p {
+    color: #000;
+  }
+
+/* Seções - Estrutura */
+
+  .topo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    height: auto;
+
+  }
+
+  .topo-logo {
+    align-items: flex-end;
+    align-content: center;
+    width: 20%;
+
+  }
+
+  .topo-titulo {
+    align-items: flex-end;
+    width: 80%;
+
+  }
+
+  .divisor-topo {
+    border: 1.4px solid #7d97ad;
+    margin-bottom: 20px;
+  }
+
+  .divisor-footer {
+    border: 0.4px solid #ee7777;
+    margin-top: 50px;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .secao-trabalhos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .trampos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+
+/* Títulos - Texto */
+
+  .titulo-header {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 3.2em;
+    line-height: 0.3em;
+    text-transform: uppercase;
+    text-align: right;
+
+  }
+
+  .subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    line-height: 0.1em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  .projetos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.7em;
+    color: #7d97ad;
+    line-height: 0.1em;
+    text-align: right;
+    padding-left: 5pt;
+  }
+
+  .titulo-trabalho {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    line-height: 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .descricao {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    line-height: 0;
+    font-style: italic;
+    text-align: center;
+  }
+
+
+/* Imagens */
+
+  .logo {
+    max-width: 100%;
+    max-height: 60%;
+    padding: 20px 0 0 0;
+  }
+
+
+  .img-main {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-projeto {
+    max-width: 100%;
+    float: left;
+    margin-bottom: 30px;
+  }
+
+  .redes {
+    max-width: 40px;
+    padding: 20px 10px 20px 0;
+  }
+
+/* Portfolio itens */
+
+  .projeto {
+    width: 32%;
+  }
+
+/* Links */
+
+  .um, .dois, .tres {
+    cursor: help;
+  }
+
+  a.um:link {text-decoration: none; color: #2d3c49;}
+  a.um:visited {color: grey;}
+  a.um:hover {color: #311054;}
+
+  a.dois:link {text-decoration: none; color: #2d3c49;}
+  a.dois:visited {color: grey;}
+  a.dois:hover {color: #bfcd7e;}
+
+  a.tres:link {text-decoration: none; color: #2d3c49;}
+  a.tres:visited {color: grey;}
+  a.tres:hover {color: #ee7777;}
+
+/* Footer */
+
+  .footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
